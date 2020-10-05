@@ -1,5 +1,4 @@
 26.Create an array of 17 elements in 5 rows.  And calculate sum of all elements.
-=>
 
 import java.util.Scanner;
 class Que26{
@@ -33,7 +32,7 @@ class Que26{
 	}
 }
 
-==================================================================
+-------------------------------------------------------------------------------------------------------------
 
 27.Write a program to fine the smallest and greatest number present in the array of integer type.
 
@@ -59,8 +58,8 @@ class SmallGreat{
 	}
 }
 
+---------------------------------------------------------------------------------------------------------
 
-==========================================================================
 28.	Initialize one String type of array and print 
 the elements using for each loop.
 
@@ -72,7 +71,7 @@ class StringArray{
 		for(int i=0;i<arr.length;i++){
 			arr[i] = sc.next();
 		}
-		System.out.println("======================s");
+		System.out.println("String");
 		for(String ar : arr){
 			System.out.println(ar);
 		}		
@@ -80,9 +79,10 @@ class StringArray{
 }
 
 
-==============================================================================
+--------------------------------------------------------------------------------------------------------------
 
-29.Write a program to print the total number of one-D arrays in a two-D array and the number of elements in every one-D array present in the two-D arrays.
+29.Write a program to print the total number of one-D arrays in a two-D array and the number of elements 
+   in every one-D array present in the two-D arrays.
 
 import java.util.Scanner;
 class ElementArray{
@@ -100,15 +100,14 @@ class ElementArray{
 			System.out.print("!!!Total no of Elements in 1-D array = "+count);
 			System.out.println("");
 		}
-		System.out.println("=======================================");
 		System.out.print("Total no of 1-D Array in 2-D Array = "+row);
 	}	
 }
 
+----------------------------------------------------------------------------------------------------------
 
-
-================================================================================
-30.Create an integer type 2-D array of size [3X3]. Take the elements from the user and then calculate the sum of the elements present in the diagonal.
+30.Create an integer type 2-D array of size [3X3]. Take the elements from the user and then calculate 
+  the sum of the elements present in the diagonal.
 
 
 import java.util.Scanner;
@@ -146,7 +145,8 @@ class ArrayMatrix{
 	}	
 }
 
-========================================================================================
+----------------------------------------------------------------------------------------------------------------------
+
 31.	Create a class Student with 2 data members rno and name. Create one method setData() that takes roll number and student 
 name as parameter and stores them in data members rno and name. Create one more method showData() to print the data member values.
 Create another class ( main class) StudentDemo that creates Student class object and calls setData() and showData() methods.
@@ -173,7 +173,10 @@ class StudentDemo{
 	}
 }
 
-=======================================================================================
+----------------------------------------------------------------------------------------------------
+
+32.Modify the above program (no. 30) to count the no of Student objects created. 
+  [ In this program static variable is required ]
 
 import java.util.Scanner;
 class twoDArray{
@@ -203,9 +206,6 @@ class twoDArray{
 		System.out.println("Total Array Sum = "+totalarray);
 	}
 }
-
-
-
 
 
 
